@@ -131,11 +131,28 @@
       <h2>Project <strong>Gallery</strong></h2>
     </div>
     <p class="gallery-intro reveal">Every project tells a story. Browse our portfolio of completed hardscaping and landscaping transformations across the region.</p>
+    
+    <div class="category-card" onclick="openModal('featured-project')">
+        <img src="images/featured-project/fp-cover.JPG" alt="Featured Project">
+        <div class="category-overlay">
+          <h3>Featued Project</h3>
+          <span>View Project Photos</span>
+        </div>
+      </div>
+    
     <div class="category-grid">
       <div class="category-card" onclick="openModal('retaining-walls')">
         <img src="images/retaining-walls/retaining_wall_cover.JPG" alt="retaining-walls">
         <div class="category-overlay">
           <h3>Retaining Walls</h3>
+          <span>View Project Photos</span>
+        </div>
+      </div>
+
+      <div class="category-card" onclick="openModal('walkways')">
+        <img src="images/walkways/walkway-cover.JPG" alt="Retaining Walls">
+        <div class="category-overlay">
+          <h3>Walkways</h3>
           <span>View Project Photos</span>
         </div>
       </div>
@@ -147,17 +164,9 @@
           <span>View Project Photos</span>
         </div>
       </div>
-      </div>
-
-      <div class="category-card" onclick="openModal('walkways')">
-        <img src="images/walkways/walkway-cover.JPG" alt="Retaining Walls">
-        <div class="category-overlay">
-          <h3>Walkways</h3>
-          <span>View Project Photos</span>
-        </div>
-      </div>
-      </div>
     </div>
+  </div>
+</div>
 
   <div id="galleryModal" class="modal">
     <span class="close" onclick="closeModal()">&times;</span>
